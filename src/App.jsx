@@ -41,7 +41,10 @@ function App() {
       justifyContent="space-between" 
       alignItems="center"
       py={4}>
-        <C.Image src="/src/img/Magrao-logo3.png"
+        <C.Text fontSize="2xl" fontWeight="semibold" textAlign="center" marginLeft="40px">
+          Magrão Café
+        </C.Text>
+        {/* <C.Image src="/src/img/Magrao-logo3.png"
           alt="Logo do Magrão Café"
           w={{ base: "46%", md: "15%", lg: "15%" }}
           h="15%"
@@ -50,7 +53,7 @@ function App() {
           marginRight={{ base: "auto", md: "40px" }}
           onClick={() => window.location.reload()}
           cursor="pointer"
-        />
+        /> */}
         <C.Text fontSize="2xl" fontWeight="semibold" textAlign="center" marginRight="40px">
           Sobre Nós
         </C.Text>
