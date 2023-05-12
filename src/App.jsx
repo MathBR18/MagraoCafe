@@ -41,7 +41,7 @@ function App() {
       justifyContent="space-between" 
       alignItems="center"
       py={4}>
-        <C.Image src="public/magraologo.png"
+        <C.Image src="./public/magraologo.png"
           alt="Logo do Magrão Café"
           w={{ base: "46%", md: "15%", lg: "15%" }}
           h="15%"
